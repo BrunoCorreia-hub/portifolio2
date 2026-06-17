@@ -4,7 +4,6 @@ export const HeaderContainer = styled.header`
     display: flex;
     justify-content: space-evenly;
     padding: 3rem;
-    background-color: ${({ theme }) => theme.colors.gray[900]};
     border-bottom: 0.1rem solid ${({ theme }) => theme.colors.gray[50]};
 `;
 
@@ -14,10 +13,15 @@ export const Title = styled.h1`
 
 export const GridLinks = styled.div`
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
 
     a{
-        color: ${({ theme }) => theme.colors.text.secondary};
+        color: ${({ theme }) => theme.colors.gray[100]};
         font-size: 2rem;
+        text-decoration: none;
+
+        &:hover{
+            color: ${({ theme }) => theme.colors.text.primary};
+        }
     }
 `;

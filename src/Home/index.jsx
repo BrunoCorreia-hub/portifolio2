@@ -1,11 +1,12 @@
 import Header from "../Components/Header"
+import On from "../Components/On"
 
 
 const Home = () => {
     return (
         <div>
             <Header />
-            <h1>Portifolio</h1>
+            <On />
         </div>
     )
 }

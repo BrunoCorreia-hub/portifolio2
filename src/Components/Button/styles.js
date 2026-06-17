@@ -12,5 +12,6 @@ export const ContainerButton = styled.button`
 
     &:hover{
         transform: scale(1.05);
+        background-color: ${({ theme }) => theme.colors.background.primary};
     }
 `;

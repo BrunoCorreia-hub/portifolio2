@@ -6,9 +6,9 @@ const Header = () => {
         <HeaderContainer>
             <Title>Portifólio</Title>
             <GridLinks>
-                <a>projetos</a>
-                <a>habilidades</a>
-                <a>contato</a>
+                <a href='#'>projetos</a>
+                <a href='#'>habilidades</a>
+                <a href='#'>contato</a>
             </GridLinks>
             <Button>Contratar</Button>
         </HeaderContainer>

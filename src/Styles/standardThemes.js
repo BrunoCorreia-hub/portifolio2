@@ -112,11 +112,6 @@ const standardThemes = {
     '3xl': '36px',
     '4xl': '48px',
   },
-  fontWeights: {
-    regular: 400,
-    medium:  500,
-    bold:    600,
-  },
   lineHeights: {
     tight:  1.25,
     normal: 1.6,
