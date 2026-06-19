@@ -1,21 +1,24 @@
 import { CardContainer, CardProject } from "./styles";
+import { projects } from "../../Data/projects";
 
 const CardProjects = () => {
-    return(
+    return (
         <CardContainer>
-            <CardProject>
-                <div>
-                    <h1>imagem</h1>
-                </div>
-                <div>
-                    <div>tecnologias</div>
-                    <p>Finantrack</p>
-                    <p>Plataforma de vendas completa com carrinho, pagamentos e painel admin.</p>
+            {projects.map((p) => (
+                <CardProject key={p.id}>
                     <div>
-                        <p>codigo</p>
+                        <img src={p.image} alt={p.title} />
                     </div>
-                </div>
-            </CardProject>
+                    <div>
+                        <div>{p.technologies}</div>
+                        <p>{p.title}</p>
+                        <p>{p.description}</p>
+                        <div>
+                            <button>{p.github}</button>
+                        </div>
+                    </div>
+                </CardProject>
+            ))}
         </CardContainer>
     )
 }
