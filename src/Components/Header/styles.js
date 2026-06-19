@@ -5,6 +5,10 @@ export const HeaderContainer = styled.header`
     justify-content: space-evenly;
     padding: 3rem;
     border-bottom: 0.1rem solid ${({ theme }) => theme.colors.gray[50]};
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
 `;
 
 export const Title = styled.h1`

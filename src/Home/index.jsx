@@ -1,5 +1,7 @@
+import Experience from "../Components/Experience"
 import Header from "../Components/Header"
 import On from "../Components/On"
+import Projects from "../Components/Projects"
 
 
 const Home = () => {
@@ -7,6 +9,8 @@ const Home = () => {
         <div>
             <Header />
             <On />
+            <Experience />
+            <Projects />
         </div>
     )
 }
