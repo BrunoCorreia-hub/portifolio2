@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ContainerExperience = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    background-color: ${({ theme }) => theme.colors.gray[900]};
 `;
 
 export const Grid = styled.div`

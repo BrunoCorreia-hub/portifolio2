@@ -9,6 +9,7 @@ export const HeaderContainer = styled.header`
     width: 100%;
     top: 0;
     z-index: 99;
+    background-color: ${({ theme }) => theme.colors.gray[800]};
 `;
 
 export const Title = styled.h1`

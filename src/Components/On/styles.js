@@ -6,6 +6,7 @@ export const ContainerMain = styled.main`
     align-items: center;
     padding-top: 13rem;
     padding-bottom: 3rem;
+    background-color: ${({ theme }) => theme.colors.gray[800]};
 `;
 
 export const ContainerInfo = styled.div`

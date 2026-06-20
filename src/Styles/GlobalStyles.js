@@ -7,7 +7,7 @@ const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
         outline: none;
         font-family: "Inter", sans-serif;
-        background-color: ${({ theme }) => theme.colors.gray[900]};
+        /* background-color: ${({ theme }) => theme.colors.gray[900]}; */
     }
     button{
         cursor: pointer;
