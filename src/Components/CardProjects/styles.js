@@ -15,6 +15,7 @@ export const CardProject = styled.div`
 `;
 
 export const CardImage = styled.div`
+
     img{
         width: 100%;
         border-top-right-radius: 2rem;
@@ -57,6 +58,8 @@ export const CardText = styled.div`
 
 export const CardGit = styled.div`
     padding: 1.5rem 0;
+    display: flex;
+    gap: 1.5rem;
 
     a{
         text-decoration: none;
