@@ -6,18 +6,33 @@ export const CardContainer = styled.div`
     padding: 3rem 0;
     background-color: ${({ theme }) => theme.colors.background.primary};
     gap: 3rem;
+    
 `;
 
 export const CardProject = styled.div`
     border-radius: 2rem;
     border: 0.1rem solid ${({ theme }) => theme.colors.gray[600]};
     background-color: ${({ theme }) => theme.colors.gray[900]};
+    transition: transform 0.4s ease, filter 0.4s ease;
+    transition: 0.3s;
+
+    &:hover{
+        transform: scale(1.03) translateY(-4px);
+        filter: brightness(1.05);
+        box-shadow: 0 0 1rem ${({ theme }) => theme.colors.gray[50]};
+    }
 `;
 
 export const CardImage = styled.div`
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     img{
-        width: 100%;
+        max-width: 100%;
+        max-height: 100%;
         border-top-right-radius: 2rem;
         border-top-left-radius: 2rem;
     }

@@ -144,7 +144,7 @@ const standardThemes = {
 
   // --- Sombras (leves, para modo claro) ---
   shadows: {
-    sm:  '0 1px 3px rgba(0, 0, 0, 0.06)',
+    sm:  '0 1px 3px rgba(247, 241, 241, 0.06)',
     md:  '0 2px 8px rgba(0, 0, 0, 0.08)',
     lg:  '0 4px 16px rgba(0, 0, 0, 0.10)',
   },

@@ -9,6 +9,7 @@ export const projects = [
     title: 'Finantrack',
     description: 'Sistema de controle financeiro pessoal.',
     technologies: ['React', 'TypeScript', 'Tailwind', 'Firebase'],
+    deploy: 'https://devfinantrack.netlify.app',
     github: 'https://github.com/BrunoCorreia-hub/interface-finantrack.git',
     image: Finan,
   } ,
