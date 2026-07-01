@@ -2,6 +2,7 @@ import Experience from "../Components/Experience"
 import Header from "../Components/Header"
 import On from "../Components/On"
 import Projects from "../Components/Projects"
+import Stacks from "../Components/Stacks"
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
             <On />
             <Experience />
             <Projects />
+            <Stacks />
         </div>
     )
 }
