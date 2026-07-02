@@ -30,8 +30,6 @@ const CardProjects = () => {
                                 >
                                     <FiExternalLink />
                                     Deploy</a>}
-
-
                             <a
                                 href={p.github}
                                 target="_blank"
@@ -39,8 +37,6 @@ const CardProjects = () => {
                             >
                                 <FaGithub />
                                 Código</a>
-
-
                         </CardGit>
                     </CardInfo>
                 </CardProject>

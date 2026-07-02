@@ -1,3 +1,4 @@
+import Contacts from "../Components/Contacts"
 import Experience from "../Components/Experience"
 import Header from "../Components/Header"
 import On from "../Components/On"
@@ -13,6 +14,7 @@ const Home = () => {
             <Experience />
             <Projects />
             <Stacks />
+            <Contacts />
         </div>
     )
 }
